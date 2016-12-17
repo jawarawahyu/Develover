@@ -21,7 +21,7 @@ My hobby is Learning something new.
 
 **_Through Her Eyes_**
 ***
-_I'm learning all about my life...
+_I'm learning all about my life..._
 
-by looking through her eyes_
+_by looking through her eyes_
 
