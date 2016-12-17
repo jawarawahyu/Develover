@@ -10,11 +10,11 @@ public static void main() {
 
 **okey?**
 
-Let's Introduce myself.
-Hello, my name is _Jawara Wahyu Al Faraday_
-My hobby is Learning something new.
+Let's Introduce myself.\
+Hello, my name is _Jawara Wahyu Al Faraday_\
+My hobby is Learning something new.\
 
 **_Through Her Eyes_**
 ***
-_I'm learning all about my life...
+_I'm learning all about my life...\
 by looking through her eyes_
