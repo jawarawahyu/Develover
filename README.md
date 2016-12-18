@@ -11,9 +11,9 @@ public static void main() {
 
 **okey?**
 
-<p align="center">
+
 ![Zube](https://zube.io/images/45001cebe04ef1725a03259b174cf3a6.combo_blue.svg)
-</p>
+
 
 
 Let's Introduce myself.
