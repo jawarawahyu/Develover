@@ -91,4 +91,8 @@ Untuk menjalankan **Zube**, kita perlu membuat *Project* terlebih dahulu. Dibawa
 ![Milestones](https://lh3.googleusercontent.com/-KZDN20XYz1A/WFd8eZk_pNI/AAAAAAAAARk/WUrAgtLArwwUu8JqrR4ZH8j07eGBzxMLQCLcB/s0/13.png "13.png")
 
 
-> Oleh : [Jawara Wahyu Al Faraday](twitter.com/jawarawahyu) `145150400111054` *DPSI - P*
+---
+
+> Oleh : [Jawara Wahyu Al Faraday](https://www.twitter.com/jawarawahyu) `145150400111054` *DPSI - P*
+
+---
