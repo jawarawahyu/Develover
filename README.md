@@ -6,7 +6,7 @@
 
 # Zube in General
 
-> Zube adalah papan kanban Agile yang dirancang untuk pengembang (developer), manajer masalah yang kuat untuk pemimpin tim, tiket untuk dukungan pelanggan, sprint, dan analisis. Semua data dapat disinkronkan dengan GitHub secara real-time.
+  Zube adalah papan kanban Agile yang dirancang untuk pengembang (developer), manajer masalah yang kuat untuk pemimpin tim, tiket untuk dukungan pelanggan, sprint, dan analisis. Semua data dapat disinkronkan dengan GitHub secara real-time.
 
 
 ## Features
