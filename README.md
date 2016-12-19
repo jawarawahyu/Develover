@@ -6,7 +6,7 @@
 
 # Zube in General
 
-  Zube adalah papan kanban Agile yang dirancang untuk pengembang (developer), manajer masalah yang kuat untuk pemimpin tim, tiket untuk dukungan pelanggan, sprint, dan analisis. Semua data dapat disinkronkan dengan GitHub secara real-time.
+  Zube merupakan *Agile Kanban Board* yang dirancang untuk pengembang (developer), manajer *issue* untuk team leaders, *tiket* untuk dukungan pelanggan, *sprint*, dan *analisis*. Semua data dapat disinkronkan dengan **GitHub** secara real-time.
 
 
 ## Features
@@ -14,14 +14,44 @@
 > * **Projects**
 >
 
->  Projects are the highest level containers in Zube. You attach one or more data sources (GitHub Repositories) to a Project and that defines what information you can manage within the Project. Projects are made up of Workspaces, the Issue Manager, and Tickets, all of which are described in more detail below. A project also allows you to control which team members have access to your data. Only your team members that are project users will be able to view the components of a Project. Project admins can add or remove project users or make other users a project admin. A list of your Projects can be found on the Zube homepage, after you sign in. If you do not currently belong to any Projects, there will be a form that allows you to create your first Project.
-> To create a Project, enter a name for your Project, select a GitHub organization, and select one or more source repositories to add to your project. Note that a particular source can only belong to a single project on Zube. If you need to share sources between teams, you should add all the sources you want to share to a single project. If you then need to separate out work items into separate boards, you can use Workspaces for that. Once you submit your new Project, Zube will automatically import the issues from the source repositories, turn those issues into Zube cards and generate a Workspace for your Project. Once the import is finished, you'll be redirected to your Workspace Kanban board.
-> 
+>  Proyek adalah wadah tingkat tertinggi dalam Zube. Anda memasang satu atau lebih sumber data (GitHub Repositori) untuk Proyek dan yang mendefinisikan informasi apa yang dapat Anda mengelola dalam Proyek. Proyek terdiri dari ruang kerja, Isu Manager, dan Tiket, semua yang dijelaskan lebih rinci di bawah. Sebuah proyek juga memungkinkan Anda untuk mengontrol anggota tim memiliki akses ke data Anda. Hanya anggota tim Anda yang pengguna proyek akan dapat melihat komponen dari Proyek a. admin proyek dapat menambahkan atau menghapus pengguna proyek atau membuat pengguna lain admin proyek. Daftar Proyek Anda dapat ditemukan pada homepage Zube, setelah masuk. Jika saat ini Anda tidak tergabung dalam Proyek, akan ada bentuk yang memungkinkan Anda untuk membuat proyek pertama Anda.
+>
 
 > * **Workspaces**
 >
 
->  Workspaces allow you break apart your cards into separate spaces. Workspaces contain a Kanban board, Sprint board, Sprints, and Burndown charts. Each project has at least one Workspace, but you can create multiple Workspaces for your Project. Every Workspace on a Project will have access to the same source repositories that have been added to the Project. However, cards can only exist on one Workspace at a time, which allows you to segment your cards as appropriate. Cards can be moved between Workspaces so you can create a workflow across different teams.
+>  Ruang kerja memungkinkan Anda pecah kartu Anda ke dalam ruang yang terpisah. Ruang kerja berisi papan Kanban, papan Sprint, Sprint, dan grafik Burndown. Setiap proyek memiliki setidaknya satu Workspace, tetapi Anda dapat membuat beberapa ruang kerja untuk Proyek Anda. Setiap Workspace pada Project akan memiliki akses ke repositori sumber yang sama yang telah ditambahkan ke Proyek. Namun, kartu hanya bisa berada pada satu Workspace pada waktu, yang memungkinkan Anda untuk segmen kartu Anda yang sesuai. Kartu dapat dipindahkan antara ruang kerja sehingga Anda dapat membuat alur kerja di tim yang berbeda.
+>
+
+> * **Kanban Board**
+>
+
+>  Papan Kanban diatur kolom yang memungkinkan Anda untuk melacak kemajuan tugas ketika mereka bergerak melalui alur kerja Anda. The Zube Kanban kolom papan default Inbox, Backlog, Siap, In Progress, Dalam Review dan Selesai. Kartu yang baru ditambahkan ke Workspace (seperti ketika masalah ini dibuat pada GitHub) akan masuk ke kolom Inbox secara default. Kartu yang dipindahkan ke dalam kolom Selesai pada Zube akan ditutup secara otomatis dan kartu ditutup melalui GitHub akan otomatis pindah ke kolom Selesai.
+
+>  Sebuah papan Kanban adalah komponen dari Workspace, dan papan kanban di ruang kerja yang berbeda dapat memiliki berbagai kolom. Hal ini memungkinkan Anda mengatur alur kerja dengan baik disesuaikan untuk setiap Workspace. Kolom dapat disesuaikan pada halaman pengaturan Workspace.
+>
+
+> * **Sprint Board**
+>
+
+>  Papan Sprint memungkinkan Anda untuk mengatur tugas-tugas Anda ke Sprint. Sprint Agile adalah durasi waktu tertentu pembangunan di mana pekerjaan yang harus diselesaikan. Kolom pada sisi kiri papan lari adalah tugas-tugas yang belum menjadi bagian dari lari apapun. Mereka adalah warna yang sedikit lebih gelap dan berada di luar bagian lari. Bagian berlari terdiri dari kolom di bawah informasi header lari, dan sedikit lebih ringan dalam warna dari kolom global. Secara default kolom lari pertama disebut "Siap". Untuk menambahkan kartu untuk sprint, cukup tarik ke salah satu kolom di bagian lari. Biasanya, untuk menambahkan kartu untuk sprint, Anda akan menyeret kartu dari Backlog, yang merupakan kolom global yang dimaksudkan untuk digunakan sebagai jaminan produk Anda, untuk kolom Ready, yang merupakan kolom berlari dan seharusnya digunakan sebagai Anda berlari backlog.
+
+>  Anda dapat mengubah kolom yang berfungsi sebagai sprint backlog pada halaman pengaturan Workspace dan setiap kolom kanan sprint backlog akan menjadi kolom berlari di papan Sprint.ang berbeda.
+>
+
+
+> * **Issue Manager**
+>
+
+>  Isu Manager adalah cara yang paling ampuh untuk mencari, update, dan memindahkan kartu Anda di seluruh proyek Anda. Isu Manager memberikan Anda akses ke setiap kartu di Proyek Anda. Cari, filter, dan semacam untuk menemukan apa yang Anda cari dan mudah memperbarui atau memindahkan mereka semua sekaligus. Zube juga menyediakan ekspor JSON kartu Anda dari Masalah Manajer sehingga Anda selalu memiliki akses mudah ke data Anda. Sebuah ekspor JSON berarti bahwa Anda bebas untuk menghasilkan laporan kustom dan analisis, atau hanya mengambil data Anda dengan Anda.
+>
+
+> * **Tickets**
+>
+
+>  Zube Tiket memungkinkan anggota tim Anda untuk log bug, permintaan fitur, dan barang-barang lain yang tidak menjadi GitHub Isu. Tiket adalah cara yang bagus untuk semua orang untuk berkomunikasi dengan tim pengembangan. Kartu Zube dapat dilampirkan ke Tiket, dan Ticket akan melacak kemajuan isu-isu tersebut dan secara otomatis memperbarui untuk mencerminkan keadaan tugas yang dilakukan.
+>
+
 
 ## Let's Start
 
@@ -34,11 +64,30 @@ Untuk menjalankan **Zube**, kita perlu membuat *Project* terlebih dahulu. Dibawa
 > 3. Pilih `GitHub Organization`, misal _"jawarawahyu"_.
 > 4. Pada kolom `Add a GitHub repository to your project` tambahkan repository yang telah dibuat di GitHub, misal _"Develover"_. Kemudian klik **Create Project**.
 
-
-## Workspace - Kanban Board
-
-Semua project sekarang memiliki setidaknya satu workspace.
+ * Tampilan menu *Kanban Board* dari `workspace` **Zube**
 
 ![Kanban Board](https://lh3.googleusercontent.com/-kkVwErY3Bbs/WFc5VrCNaoI/AAAAAAAAAP0/xYNQ6QuESxQFo2370jul1gcvSb_M-lB4QCLcB/s0/6.png "6.png")
 
-> Blockquote
+* Tampilan menu *Sprints* dari `workspace` **Zube**
+
+![Sprints](https://lh3.googleusercontent.com/-bm8vUcPymQo/WFd5ImbYUjI/AAAAAAAAAQU/0Bzdy9IsN9AQ3J9evrcCKkxNmI-OytKawCLcB/s0/7.png "7.png")
+
+* Tampilan menu *Burndown* dari `workspace` **Zube**
+
+![Burndown](https://lh3.googleusercontent.com/-dKlQd30rRxo/WFd53AOPSyI/AAAAAAAAAQc/0rkAtS1emJUOoZ5qtIPGCMiUk2BozutDQCLcB/s0/8.png "8.png")
+
+* Tampilan menu *Issue Manager* dari `project` **Zube**
+
+![Issue Manager](https://lh3.googleusercontent.com/-7C-0tIR1YOs/WFd6NueAkTI/AAAAAAAAAQs/LhyVezNBQq4hKcOPbU08_P3LuYRnu_NYACLcB/s0/9.png "9.png")
+
+* Tampilan menu *Labels* dari `project` **Zube**
+
+![labels](https://lh3.googleusercontent.com/-Usx8_KINSQo/WFd61pnQ89I/AAAAAAAAAQ8/l5jyxh_xcYsZ-0M10W9Kg69_6AUyhY5NACLcB/s0/10.png "10.png")
+
+* Tampilan menu *Tickets* dari `Tickets` **Zube**
+
+![Tickets](https://lh3.googleusercontent.com/-9fNXWUHsKcE/WFd78WPUyrI/AAAAAAAAARY/e4yvHxQJY2crgnoowqShMMN44PzA-jbIwCLcB/s0/11.png "11.png")
+
+* Tampilan menu *Milestones* dari `GitHub Components` **Zube**
+
+![Milestones](https://lh3.googleusercontent.com/-KZDN20XYz1A/WFd8eZk_pNI/AAAAAAAAARk/WUrAgtLArwwUu8JqrR4ZH8j07eGBzxMLQCLcB/s0/13.png "13.png")
