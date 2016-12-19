@@ -14,29 +14,27 @@
 > * **Projects**
 >
 
->  Proyek adalah wadah tingkat tertinggi dalam Zube. Anda memasang satu atau lebih sumber data (GitHub Repositori) untuk Proyek dan yang mendefinisikan informasi apa yang dapat Anda mengelola dalam Proyek. Proyek terdiri dari ruang kerja, Isu Manager, dan Tiket, semua yang dijelaskan lebih rinci di bawah. Sebuah proyek juga memungkinkan Anda untuk mengontrol anggota tim memiliki akses ke data Anda. Hanya anggota tim Anda yang pengguna proyek akan dapat melihat komponen dari Proyek a. admin proyek dapat menambahkan atau menghapus pengguna proyek atau membuat pengguna lain admin proyek. Daftar Proyek Anda dapat ditemukan pada homepage Zube, setelah masuk. Jika saat ini Anda tidak tergabung dalam Proyek, akan ada bentuk yang memungkinkan Anda untuk membuat proyek pertama Anda.
+>  Proyek adalah wadah tingkat tertinggi dalam Zube. Anda memasang satu atau lebih sumber data (GitHub Repositori) untuk Proyek dan yang mendefinisikan informasi apa yang dapat Anda mengelola dalam Proyek. Proyek terdiri dari ruang kerja, Isu Manager, dan Tiket. Sebuah proyek juga memungkinkan Anda untuk mengontrol anggota tim memiliki akses ke data Anda. Hanya anggota tim Anda yang pengguna proyek akan dapat melihat komponen dari sebuah Proyek. Admin proyek dapat menambahkan atau menghapus pengguna proyek atau membuat pengguna lain menjadi admin proyek. Daftar Proyek Anda dapat ditemukan pada homepage Zube, setelah masuk. Jika saat ini Anda tidak tergabung dalam Proyek, akan disediakan form yang memungkinkan Anda untuk membuat proyek pertama Anda.
 >
 
 > * **Workspaces**
 >
 
->  Ruang kerja memungkinkan Anda pecah kartu Anda ke dalam ruang yang terpisah. Ruang kerja berisi papan Kanban, papan Sprint, Sprint, dan grafik Burndown. Setiap proyek memiliki setidaknya satu Workspace, tetapi Anda dapat membuat beberapa ruang kerja untuk Proyek Anda. Setiap Workspace pada Project akan memiliki akses ke repositori sumber yang sama yang telah ditambahkan ke Proyek. Namun, kartu hanya bisa berada pada satu Workspace pada waktu, yang memungkinkan Anda untuk segmen kartu Anda yang sesuai. Kartu dapat dipindahkan antara ruang kerja sehingga Anda dapat membuat alur kerja di tim yang berbeda.
+>  Ruang kerja memungkinkan Anda memisahkan kartu Anda ke dalam ruang yang terpisah. Ruang kerja berisi papan Kanban, papan Sprint, Sprint, dan grafik Burndown. Setiap proyek memiliki setidaknya satu Workspace, tetapi Anda dapat membuat beberapa ruang kerja untuk Proyek Anda. Setiap Workspace pada Project akan memiliki akses ke repositori sumber yang sama yang telah ditambahkan ke Proyek. Namun, kartu hanya bisa berada pada satu Workspace pada waktu, yang memungkinkan Anda untuk segmen kartu Anda yang sesuai. Kartu dapat dipindahkan antara ruang kerja sehingga Anda dapat membuat alur kerja di tim yang berbeda.
 >
 
 > * **Kanban Board**
 >
 
->  Papan Kanban diatur kolom yang memungkinkan Anda untuk melacak kemajuan tugas ketika mereka bergerak melalui alur kerja Anda. The Zube Kanban kolom papan default Inbox, Backlog, Siap, In Progress, Dalam Review dan Selesai. Kartu yang baru ditambahkan ke Workspace (seperti ketika masalah ini dibuat pada GitHub) akan masuk ke kolom Inbox secara default. Kartu yang dipindahkan ke dalam kolom Selesai pada Zube akan ditutup secara otomatis dan kartu ditutup melalui GitHub akan otomatis pindah ke kolom Selesai.
-
->  Sebuah papan Kanban adalah komponen dari Workspace, dan papan kanban di ruang kerja yang berbeda dapat memiliki berbagai kolom. Hal ini memungkinkan Anda mengatur alur kerja dengan baik disesuaikan untuk setiap Workspace. Kolom dapat disesuaikan pada halaman pengaturan Workspace.
+>  Papan Kanban diatur kolom yang memungkinkan Anda untuk melacak kemajuan tugas ketika mereka bergerak melalui alur kerja Anda. Sebuah papan Kanban adalah komponen dari Workspace, dan papan kanban di ruang kerja yang berbeda dapat memiliki berbagai kolom. Hal ini memungkinkan Anda mengatur alur kerja dengan baik disesuaikan untuk setiap Workspace. Kolom dapat disesuaikan pada halaman pengaturan Workspace.
 >
 
 > * **Sprint Board**
 >
 
->  Papan Sprint memungkinkan Anda untuk mengatur tugas-tugas Anda ke Sprint. Sprint Agile adalah durasi waktu tertentu pembangunan di mana pekerjaan yang harus diselesaikan. Kolom pada sisi kiri papan lari adalah tugas-tugas yang belum menjadi bagian dari lari apapun. Mereka adalah warna yang sedikit lebih gelap dan berada di luar bagian lari. Bagian berlari terdiri dari kolom di bawah informasi header lari, dan sedikit lebih ringan dalam warna dari kolom global. Secara default kolom lari pertama disebut "Siap". Untuk menambahkan kartu untuk sprint, cukup tarik ke salah satu kolom di bagian lari. Biasanya, untuk menambahkan kartu untuk sprint, Anda akan menyeret kartu dari Backlog, yang merupakan kolom global yang dimaksudkan untuk digunakan sebagai jaminan produk Anda, untuk kolom Ready, yang merupakan kolom berlari dan seharusnya digunakan sebagai Anda berlari backlog.
+>  Papan Sprint memungkinkan Anda untuk mengatur tugas-tugas Anda ke Sprint. Sprint Agile adalah durasi waktu tertentu pembangunan di mana pekerjaan yang harus diselesaikan. Kolom pada sisi kiri papan sprint adalah tugas-tugas yang belum menjadi bagian dari sprint apapun. Biasanya, untuk menambahkan kartu untuk sprint, Anda akan menyeret kartu dari Backlog, yang merupakan kolom global yang dimaksudkan untuk digunakan sebagai jaminan produk Anda, untuk kolom Ready, yang merupakan kolom sprint dan seharusnya digunakan sebagai sprint backlog anda.
 
->  Anda dapat mengubah kolom yang berfungsi sebagai sprint backlog pada halaman pengaturan Workspace dan setiap kolom kanan sprint backlog akan menjadi kolom berlari di papan Sprint.ang berbeda.
+>  Anda dapat mengubah kolom yang berfungsi sebagai sprint backlog pada halaman pengaturan Workspace dan setiap kolom kanan sprint backlog akan menjadi kolom sprint di papan Sprint.
 >
 
 
@@ -49,7 +47,7 @@
 > * **Tickets**
 >
 
->  Zube Tiket memungkinkan anggota tim Anda untuk log bug, permintaan fitur, dan barang-barang lain yang tidak menjadi GitHub Isu. Tiket adalah cara yang bagus untuk semua orang untuk berkomunikasi dengan tim pengembangan. Kartu Zube dapat dilampirkan ke Tiket, dan Ticket akan melacak kemajuan isu-isu tersebut dan secara otomatis memperbarui untuk mencerminkan keadaan tugas yang dilakukan.
+>  Zube Tiket memungkinkan anggota tim Anda untuk log bug, permintaan fitur, dan barang-barang lain yang tidak menjadi GitHub Issue. Tiket adalah cara yang bagus untuk semua orang untuk berkomunikasi dengan tim pengembangan. Kartu Zube dapat dilampirkan ke Tiket, dan Ticket akan melacak kemajuan isu-isu tersebut dan secara otomatis memperbarui untuk mencerminkan keadaan tugas yang dilakukan.
 >
 
 
@@ -91,3 +89,6 @@ Untuk menjalankan **Zube**, kita perlu membuat *Project* terlebih dahulu. Dibawa
 * Tampilan menu *Milestones* dari `GitHub Components` **Zube**
 
 ![Milestones](https://lh3.googleusercontent.com/-KZDN20XYz1A/WFd8eZk_pNI/AAAAAAAAARk/WUrAgtLArwwUu8JqrR4ZH8j07eGBzxMLQCLcB/s0/13.png "13.png")
+
+
+> Oleh : [Jawara Wahyu Al Faraday](twitter.com/jawarawahyu) `145150400111054` *DPSI - P*
